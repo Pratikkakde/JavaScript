@@ -1,0 +1,10 @@
+const myName = 'Pratik';
+const myCity = 'Tokyo';
+
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+
+
+output : 
+
+My name is Pratik. My favorite city is Tokyo.
