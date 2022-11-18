@@ -1,0 +1,34 @@
+//forcast today is 293 kelvin
+const kelvin = 273;
+
+//declaring the celsius variable 
+//celsius is less than 273 degree from kelvin so
+ const celsius = kelvin - 273;
+
+ //equation to convert celsius into Newton 
+ let Newton = celsius * (33 / 100);
+
+ //converting from Celsius to Newton, often get a decimal number so
+ Newton = Math.floor(Newton);
+
+//equation to convert celsius into Fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+
+//converting from Celsius to Fahrenheit, often get a decimal number so 
+fahrenheit = Math.floor(fahrenheit);
+
+//using console.log and String interpolation  to log temp in fahrenheit 
+console.log(`The temprature is ${fahrenheit}  degrees Fahrenheit.`);
+
+///using console.log and String interpolation  to log temp in Newton
+console.log(`The temprature is ${Newton}  degrees Newton.`);
+
+
+
+
+
+
+
+output: 
+The temprature is 32  degrees Fahrenheit.
+The temprature is 0  degrees Newton.
