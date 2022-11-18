@@ -1,0 +1,34 @@
+// age of yours 
+const  myAge = 20;
+
+//varible of earlyYears
+let earlyYears =2;
+
+earlyYears  *= 10.5;
+
+//substracing 2 from myAge and storeit in a laterYears
+let laterYears = myAge -2;
+
+//multiplying the laterYears by 4 to calculate dog years 
+laterYears *= 4;
+
+// Printing the earlyYears and laterYears
+console.log(earlyYears);
+console.log(laterYears);
+
+// for calculating my age in dog years we add earlyYears and laterYears and store it in a myAgeInDogYears
+let myAgeInDogYears = earlyYears + laterYears;
+
+// 
+let myName = 'Pratik'.toLowerCase();
+
+//using stringinterpolation print the name, age, dogage in a sentense
+console.log(`My name is ${myName}. I am ${myAge} years old in human Years which is ${myAgeInDogYears} years old in dog years.`)
+
+
+
+
+output:
+21
+72
+My name is pratik. I am 20 years old in human Years which is 93 years old in dog years.
